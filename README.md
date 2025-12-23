@@ -13,7 +13,7 @@
 
   **A modern, responsive portfolio website showcasing my skills, projects, and experience in web development and AI.**
 
-  [View Live Demo](#) • [Report Bug](https://github.com/Hedi-bel/portfolio/issues) • [Request Feature](https://github.com/Hedi-bel/portfolio/issues)
+
 
 </div>
 
@@ -122,34 +122,7 @@ portfolio/
 
 3. **Visit** `http://localhost:3000`
 
-## 🌐 Deployment
-
-### Deploy to Netlify (Recommended)
-
-#### Method 1: Drag & Drop
-1. Go to [netlify.com](https://www.netlify.com/)
-2. Sign up for free
-3. Drag your project folder to the deploy zone
-4. Done! Your site is live 🎉
-
-#### Method 2: GitHub + Netlify (Auto-deploy)
-1. Push your code to GitHub
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
-   git push -u origin main
-   ```
-
-2. Connect Netlify to your GitHub repo
-3. Every push automatically deploys! 🚀
-
-### Other Hosting Options
-- **GitHub Pages** - Free hosting for static sites
-- **Vercel** - Zero-config deployments
-- **Cloudflare Pages** - Fast global CDN
+---
 
 ## 🎨 Customization
 
@@ -164,22 +137,7 @@ Edit CSS variables in `style.css`:
 }
 ```
 
-### Update Content
-- **Personal Info**: Edit `index.html` sections
-- **Projects**: Update project cards in the Projects section
-- **Skills**: Modify skill tags in the Skills section
-- **Certifications**: Replace images in `assets/` folder
-
-### Add New Sections
-Follow the existing pattern:
-```html
-<section id="new-section" class="section">
-    <div class="container">
-        <h2 class="section-title">Section Title</h2>
-        <!-- Your content -->
-    </div>
-</section>
-```
+---
 
 ## 📊 Performance
 
@@ -197,9 +155,6 @@ Contributions are welcome! Feel free to:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 📧 Contact
 
@@ -221,7 +176,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=200&fit=crop" alt="Code Banner">
+  <img src="https://i.pinimg.com/originals/dc/05/f2/dc05f26f08b6f45fd9324138bb81e34d.gif">
   
   **Made with ❤️ by Mohamed El Hedi Belghith**
   
