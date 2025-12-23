@@ -217,6 +217,77 @@ header nav {
     text-align: center;
 }
 
+/* Languages Section */
+.languages-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+}
+
+.languages-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent);
+}
+
+.language-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.language-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.language-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.language-name {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.language-level {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    padding: 4px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.language-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.language-progress {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent) 0%, rgba(255, 255, 255, 0.7) 100%);
+    border-radius: 10px;
+    transition: width 1s ease;
+    animation: progressLoad 1.5s ease-out;
+}
+
+@keyframes progressLoad {
+    from {
+        width: 0;
+    }
+}
+
 /* Skills */
 .skills-grid {
     display: grid;
