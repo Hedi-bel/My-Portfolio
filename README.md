@@ -15,6 +15,18 @@
 
 
 
+
+</div>
+<div style="margin: 20px 0; font-family: Arial, sans-serif;">
+  <strong>🔗 View my portfolio:</strong>
+  <a 
+    href="https://hedi-belghith.netlify.app" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    style="color: #2563eb; text-decoration: none; font-weight: 600; margin-left: 6px;"
+  >
+    My Portfolio
+  </a>
 </div>
 
 ---
